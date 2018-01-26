@@ -20,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
         Log.d("test","測試用push上傳程式");
     }
 
+    void testNewUserPush() {
+        Log.d("test","測試用另一個使用者上傳程式");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
